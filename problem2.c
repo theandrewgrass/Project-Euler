@@ -1,5 +1,5 @@
 /********************************************************************************
-*	Solution to Problem 2 (www.projecteuler.net)				*
+*	Solution to Problem 2 (www.projecteuler.net/problem=2)				*
 *	Author: Andrew Grass							*
 *	Date: March 4, 2018							*
 *										*
@@ -26,11 +26,10 @@ long int FibSeq() {
 	while (fibNums[i] < MAXVALUE) {
 		if (i <= 1) {
 			fibNums[i] = 1;
-			i++;
 		} else {
 			fibNums[i] = fibNums[i - 1] + fibNums[i - 2];
-			i++;
 		}
+		i++;
 	}
 
 	// adds all of the even from the array together
