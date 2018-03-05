@@ -1,7 +1,7 @@
 /********************************************************************************
 *	Solution to Problem 3 (www.projecteuler.net/problem=3)			*
 *	Author: Andrew Grass							*
-*	Date: March 4, 2018							*
+*	Date: March 5, 2018							*
 *										*
 *	Original problem:							*
 *	What is the largest prime factor of the number 600851475143?		*
